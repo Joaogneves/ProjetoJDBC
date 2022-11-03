@@ -22,6 +22,12 @@ public class Program {
 		for(Seller obj : list) {
 			System.out.println(obj);
 		}
+		
+		System.out.println("\n===Teste número 3 findAll===");
+		list = sd.findAll();
+		for(Seller obj : list) {
+			System.out.println(obj);
+		}
 	}
 
 }
